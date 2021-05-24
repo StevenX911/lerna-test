@@ -4,7 +4,7 @@
   "description": "> TODO: description",
   "author": "gy.wang <gy.wang@trip.com>",
   "homepage": "",
-  "license": "ISC",
+  "license": "MIT",
   "main": "lib/cli-shared-utils.js",
   "directories": {
     "lib": "lib",
@@ -23,5 +23,5 @@
     "chalk": "^4.1.1",
     "semver": "^7.3.5"
   },
-  "gitHead": "5816d55ec08d4d2b0aca882dc522e3396e90803d"
+  "gitHead": "9a894538930d64d7eb92954f778c4aa160e90c6f"
 }

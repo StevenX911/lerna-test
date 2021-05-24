@@ -4,7 +4,7 @@
   "description": "> TODO: description",
   "author": "gy.wang <gy.wang@trip.com>",
   "homepage": "",
-  "license": "ISC",
+  "license": "MIT",
   "main": "lib/cli.js",
   "directories": {
     "lib": "lib",
@@ -20,8 +20,8 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@mo-demo/cli-shared-utils": "^0.0.4-alpha.0",
+    "@mo-demo2/cli-shared-utils": "^0.0.5-alpha.0",
     "chalk": "^4.1.1"
   },
-  "gitHead": "5816d55ec08d4d2b0aca882dc522e3396e90803d"
+  "gitHead": "9a894538930d64d7eb92954f778c4aa160e90c6f"
 }
