@@ -14,7 +14,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "http://registry.npm.taobao.org/"
+    "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
@@ -22,5 +22,6 @@
   "dependencies": {
     "@mo-demo/cli-shared-utils": "^0.0.3-alpha.0",
     "chalk": "^4.1.1"
-  }
+  },
+  "gitHead": "73bc8bb97a6cbf5f97181ca1ccfef1f2ce1edf1a"
 }

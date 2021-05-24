@@ -1,0 +1,130 @@
+0 silly argv {
+0 silly argv   _: [ 'publish' ],
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': '/Users/wgy/.npm-global/bin/lerna'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath /Users/wgy/Documents/training/lerna-test
+3 verbose session 5668f62c649b0d37
+4 verbose user-agent lerna/4.0.0/node@v12.14.1+x64 (darwin)
+5 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '4.0.0' }
+6 verbose rootPath /Users/wgy/Documents/training/lerna-test
+7 info current version 0.0.2-alpha.0
+8 silly isAnythingCommitted
+9 verbose isAnythingCommitted 1
+10 silly getCurrentBranch
+11 verbose currentBranch master
+12 silly remoteBranchExists
+13 silly isBehindUpstream
+14 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 0
+15 silly hasTags
+16 verbose hasTags true
+17 silly git-describe.sync "v0.0.2-alpha.0-2-gd5cb4e3" => {"lastTagName":"v0.0.2-alpha.0","lastVersion":"v0.0.2-alpha.0","refCount":"2","sha":"d5cb4e3","isDirty":false}
+18 info Looking for changed packages since v0.0.2-alpha.0
+19 silly checking diff packages/cli-shared-utils
+20 silly found diff in packages/cli-shared-utils/lib/cli-shared-utils.js
+21 verbose filtered diff [ 'packages/cli-shared-utils/lib/cli-shared-utils.js' ]
+22 silly checking diff packages/cli
+23 silly found diff in packages/cli/lib/cli.js
+24 verbose filtered diff [ 'packages/cli/lib/cli.js' ]
+25 verbose updated @mo-demo/cli-shared-utils
+26 verbose updated @mo-demo/cli
+27 verbose git-describe undefined => "v0.0.2-alpha.0-2-gd5cb4e3"
+28 silly git-describe parsed => {"lastTagName":"v0.0.2-alpha.0","lastVersion":"v0.0.2-alpha.0","refCount":"2","sha":"d5cb4e3","isDirty":false}
+29 info execute Skipping releases
+30 silly lifecycle No script for "preversion" in "root", continuing
+31 silly lifecycle No script for "preversion" in "@mo-demo/cli-shared-utils", continuing
+32 silly lifecycle No script for "version" in "@mo-demo/cli-shared-utils", continuing
+33 silly lifecycle No script for "preversion" in "@mo-demo/cli", continuing
+34 silly lifecycle No script for "version" in "@mo-demo/cli", continuing
+35 silly lifecycle No script for "version" in "root", continuing
+36 silly gitAdd [
+36 silly gitAdd   'packages/cli-shared-utils/package.json',
+36 silly gitAdd   'packages/cli/package.json',
+36 silly gitAdd   'lerna.json'
+36 silly gitAdd ]
+37 silly gitCommit v0.0.3-alpha.0
+38 verbose git [ 'commit', '-m', 'v0.0.3-alpha.0' ]
+39 silly gitTag v0.0.3-alpha.0
+40 verbose git [ 'tag', 'v0.0.3-alpha.0', '-m', 'v0.0.3-alpha.0' ]
+41 silly lifecycle No script for "postversion" in "@mo-demo/cli-shared-utils", continuing
+42 silly lifecycle No script for "postversion" in "@mo-demo/cli", continuing
+43 silly lifecycle No script for "postversion" in "root", continuing
+44 info git Pushing tags...
+45 silly gitPush origin master
+46 info publish Publishing packages to npm...
+47 info Verifying npm credentials
+48 verbose Retrieving npm user profile
+49 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 554ms
+50 silly npm profile get received {"tfa":false,"name":"wgyngbh","email":"wgyngbh@gmail.com","email_verified":true,"created":"2017-09-23T13:02:52.078Z","updated":"2020-11-28T14:21:26.741Z","cidr_whitelist":null}
+51 silly get npm username received {"username":"wgyngbh","tfa":false,"name":"wgyngbh","email":"wgyngbh@gmail.com","email_verified":true,"created":"2017-09-23T13:02:52.078Z","updated":"2020-11-28T14:21:26.741Z","cidr_whitelist":null}
+52 silly verifyNpmPackageAccess
+53 http fetch GET 200 https://registry.npmjs.org/-/org/wgyngbh/package?format=cli 282ms
+54 info Checking two-factor auth mode
+55 verbose Retrieving npm user profile
+56 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 280ms
+57 silly npm profile get received {"tfa":false,"name":"wgyngbh","email":"wgyngbh@gmail.com","email_verified":true,"created":"2017-09-23T13:02:52.078Z","updated":"2020-11-28T14:21:26.741Z","cidr_whitelist":null}
+58 silly 2FA false
+59 warn ENOLICENSE Packages @mo-demo/cli-shared-utils and @mo-demo/cli are missing a license.
+59 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
+59 warn ENOLICENSE See https://choosealicense.com for additional guidance.
+60 silly getCurrentSHA
+61 verbose getCurrentSHA 73bc8bb97a6cbf5f97181ca1ccfef1f2ce1edf1a
+62 silly lifecycle No script for "prepublish" in "root", continuing
+63 silly lifecycle No script for "prepare" in "root", continuing
+64 silly lifecycle No script for "prepublishOnly" in "root", continuing
+65 silly lifecycle No script for "prepack" in "root", continuing
+66 verbose pack-directory packages/cli-shared-utils
+67 silly lifecycle No script for "prepublish" in "@mo-demo/cli-shared-utils", continuing
+68 silly lifecycle No script for "prepare" in "@mo-demo/cli-shared-utils", continuing
+69 silly lifecycle No script for "prepublishOnly" in "@mo-demo/cli-shared-utils", continuing
+70 silly lifecycle No script for "prepack" in "@mo-demo/cli-shared-utils", continuing
+71 silly lifecycle No script for "postpack" in "@mo-demo/cli-shared-utils", continuing
+72 verbose packed packages/cli-shared-utils
+73 verbose pack-directory packages/cli
+74 silly lifecycle No script for "prepublish" in "@mo-demo/cli", continuing
+75 silly lifecycle No script for "prepare" in "@mo-demo/cli", continuing
+76 silly lifecycle No script for "prepublishOnly" in "@mo-demo/cli", continuing
+77 silly lifecycle No script for "prepack" in "@mo-demo/cli", continuing
+78 silly lifecycle No script for "postpack" in "@mo-demo/cli", continuing
+79 verbose packed packages/cli
+80 silly lifecycle No script for "postpack" in "root", continuing
+81 verbose publish @mo-demo/cli-shared-utils
+82 silly FetchError: request to http://registry.npm.taobao.org/@mo-demo%2fcli-shared-utils failed, reason: read ECONNRESET
+82 silly     at ClientRequest.<anonymous> (/Users/wgy/Documents/training/lerna-test/node_modules/minipass-fetch/lib/index.js:97:14)
+82 silly     at ClientRequest.emit (events.js:223:5)
+82 silly     at Socket.socketErrorListener (_http_client.js:406:9)
+82 silly     at Socket.emit (events.js:228:7)
+82 silly     at emitErrorNT (internal/streams/destroy.js:92:8)
+82 silly     at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+82 silly     at processTicksAndRejections (internal/process/task_queues.js:81:21)
+82 silly  FetchError: request to http://registry.npm.taobao.org/@mo-demo%2fcli-shared-utils failed, reason: read ECONNRESET
+82 silly     at ClientRequest.<anonymous> (/Users/wgy/Documents/training/lerna-test/node_modules/minipass-fetch/lib/index.js:97:14)
+82 silly     at ClientRequest.emit (events.js:223:5)
+82 silly     at Socket.socketErrorListener (_http_client.js:406:9)
+82 silly     at Socket.emit (events.js:228:7)
+82 silly     at emitErrorNT (internal/streams/destroy.js:92:8)
+82 silly     at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+82 silly     at processTicksAndRejections (internal/process/task_queues.js:81:21) {
+82 silly   stack: 'FetchError: request to http://registry.npm.taobao.org/@mo-demo%2fcli-shared-utils failed, reason: read ECONNRESET\n' +
+82 silly     '    at ClientRequest.<anonymous> (/Users/wgy/Documents/training/lerna-test/node_modules/minipass-fetch/lib/index.js:97:14)\n' +
+82 silly     '    at ClientRequest.emit (events.js:223:5)\n' +
+82 silly     '    at Socket.socketErrorListener (_http_client.js:406:9)\n' +
+82 silly     '    at Socket.emit (events.js:228:7)\n' +
+82 silly     '    at emitErrorNT (internal/streams/destroy.js:92:8)\n' +
+82 silly     '    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n' +
+82 silly     '    at processTicksAndRejections (internal/process/task_queues.js:81:21)',
+82 silly   code: 'ECONNRESET',
+82 silly   errno: 'ECONNRESET',
+82 silly   syscall: 'read',
+82 silly   type: 'system'
+82 silly }
+83 error ECONNRESET request to http://registry.npm.taobao.org/@mo-demo%2fcli-shared-utils failed, reason: read ECONNRESET
+84 error FetchError: request to http://registry.npm.taobao.org/@mo-demo%2fcli-shared-utils failed, reason: read ECONNRESET
+84 error     at ClientRequest.<anonymous> (/Users/wgy/Documents/training/lerna-test/node_modules/minipass-fetch/lib/index.js:97:14)
+84 error     at ClientRequest.emit (events.js:223:5)
+84 error     at Socket.socketErrorListener (_http_client.js:406:9)
+84 error     at Socket.emit (events.js:228:7)
+84 error     at emitErrorNT (internal/streams/destroy.js:92:8)
+84 error     at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
