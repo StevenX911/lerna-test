@@ -1,5 +1,5 @@
 {
-  "name": "@mo-demo/cli",
+  "name": "@mo-demo2/cli",
   "version": "0.0.4-alpha.0",
   "description": "> TODO: description",
   "author": "gy.wang <gy.wang@trip.com>",
@@ -23,5 +23,5 @@
     "@mo-demo/cli-shared-utils": "^0.0.4-alpha.0",
     "chalk": "^4.1.1"
   },
-  "gitHead": "73bc8bb97a6cbf5f97181ca1ccfef1f2ce1edf1a"
+  "gitHead": "5816d55ec08d4d2b0aca882dc522e3396e90803d"
 }
