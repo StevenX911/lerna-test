@@ -1,5 +1,5 @@
 {
-  "name": "@mo-demo2/cli",
+  "name": "@tripfe/cli",
   "version": "0.0.6",
   "description": "> TODO: description",
   "author": "gy.wang <gy.wang@trip.com>",
@@ -21,8 +21,8 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@mo-demo2/cli-shared-utils": "^0.0.6",
+    "@tripfe/cli-shared-utils": "^0.0.6",
     "chalk": "^4.1.1"
   },
-  "gitHead": "4ae90517fad5586f7a48644b534e83738fa71f11"
+  "gitHead": "a9cd95d1ab8efb9b18864431da060ff4458a228f"
 }
