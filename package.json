@@ -2,6 +2,29 @@
   "name": "root",
   "private": true,
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "commitizen": "^4.2.4",
+    "cz-lerna-changelog": "^2.0.3",
+    "husky": "^6.0.0",
+    "lerna": "^4.0.0",
+    "lint-staged": "^11.0.0",
+    "prettier": "^2.3.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "precommit": "lint-staged",
+    "commit": "git-cz"
+  },
+  "lint-staged": {
+    "packages/**/*.{js,jsx}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-lerna-changelog"
+    }
   }
 }
