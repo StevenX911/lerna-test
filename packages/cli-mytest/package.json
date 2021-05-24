@@ -1,6 +1,6 @@
 {
   "name": "@tripfe/cli-mytest",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "test",
   "keywords": [
     "tet"
@@ -31,6 +31,6 @@
     "url": "https://github.com/StevenX911/lerna-test/issues"
   },
   "dependencies": {
-    "@tripfe/cli-shared-utils": "^0.0.7"
+    "@tripfe/cli-shared-utils": "^0.0.8"
   }
 }
