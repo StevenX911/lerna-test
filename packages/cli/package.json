@@ -22,7 +22,8 @@
   },
   "dependencies": {
     "@tripfe/cli-shared-utils": "^0.0.7",
-    "chalk": "^4.1.1"
+    "chalk": "^4.1.1",
+    "lodash": "^4.17.21"
   },
   "gitHead": "a9cd95d1ab8efb9b18864431da060ff4458a228f"
 }
