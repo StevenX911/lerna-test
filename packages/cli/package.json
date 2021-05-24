@@ -14,7 +14,8 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
@@ -23,5 +24,5 @@
     "@mo-demo2/cli-shared-utils": "^0.0.5",
     "chalk": "^4.1.1"
   },
-  "gitHead": "9a894538930d64d7eb92954f778c4aa160e90c6f"
+  "gitHead": "4ae90517fad5586f7a48644b534e83738fa71f11"
 }
