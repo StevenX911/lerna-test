@@ -2,6 +2,10 @@
   "name": "root",
   "private": true,
   "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "commitizen": "^4.2.4",
+    "cz-lerna-changelog": "^2.0.3",
     "eslint": "^7.27.0",
     "husky": "^6.0.0",
     "lerna": "^4.0.0",
@@ -11,7 +15,13 @@
   "workspaces": [
     "packages/*"
   ],
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-lerna-changelog"
+    }
+  },
   "scripts": {
+    "commit": "git-cz",
     "precommit": "lint-staged",
     "format": "prettier --write \"packages/**/*.{js,json,yml,yaml,css,scss,ts,tsx,md}\"",
     "lint": "eslint packages/",
@@ -27,6 +37,7 @@
   },
   "husky": {
     "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
       "pre-commit": "lint-staged"
     }
   }
