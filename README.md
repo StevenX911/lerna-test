@@ -112,3 +112,5 @@
 ```shell
 lerna publish
 ```
+
+![](./screenshot/lerna-publish.png)
