@@ -95,3 +95,20 @@
 | `lerna diff [package?]`     | 比较自上次发布以来的所有或指定的包                           |                                                              |
 | `lerna run [script]`        | 在每个包中执行一个npm script                                 |                                                              |
 | `lerna ls`                  | 列出当前lerna项目中的public包                                |                                                              |
+
+#### 优雅提交
+
+1. commitizen && cz-lerna-changelog
+
+    格式化日志
+
+2. commitlint && husky
+
+    提交钩子
+
+
+#### 发布npm
+
+```shell
+lerna publish
+```
