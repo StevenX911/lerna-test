@@ -3,5 +3,5 @@
 module.exports = cliMytest;
 
 function cliMytest() {
-    // TODO
+  // TODO
 }

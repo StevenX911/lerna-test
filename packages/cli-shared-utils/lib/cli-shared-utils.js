@@ -3,6 +3,6 @@
 module.exports = cliSharedUtils;
 
 function cliSharedUtils() {
-    // TODO
-    console.log('test~~~ddd')
+  // TODO
+  console.log('test~~~ddd');
 }

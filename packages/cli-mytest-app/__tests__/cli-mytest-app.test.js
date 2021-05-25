@@ -1,8 +1,8 @@
 'use strict';
 
 // eslint-disable-next-line no-unused-vars
-const cliMytest = require('..');
+const cliMytestApp = require('..');
 
-describe('@tripfe/cli-mytest', () => {
+describe('@tripfe/cli-mytest-app', () => {
   it('needs tests');
 });
