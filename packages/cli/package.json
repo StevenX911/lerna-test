@@ -1,6 +1,6 @@
 {
   "name": "@tripfe/cli",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "> TODO: description",
   "author": "gy.wang <gy.wang@trip.com>",
   "homepage": "",
@@ -21,8 +21,8 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@tripfe/cli-mytest-app": "^0.0.8",
-    "@tripfe/cli-shared-utils": "^0.0.8",
+    "@tripfe/cli-mytest-app": "^0.0.9",
+    "@tripfe/cli-shared-utils": "^0.0.9",
     "chalk": "^4.1.1",
     "lodash": "^4.17.21"
   },
