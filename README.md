@@ -82,6 +82,10 @@
 }
 ```
 
+#### editorconfig
+
+抹平各IDE格式化差异
+
 
 #### lerna 常用命令
 
